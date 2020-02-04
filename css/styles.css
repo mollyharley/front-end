@@ -1,0 +1,32 @@
+body {
+  background: lightblue;
+}
+
+nav {
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+flex-direction: column;
+width: 15%;
+float: left;
+box-sizing: border-box;
+}
+nav a {
+  font-size : 20px;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  background-color: grey;
+  color: white;
+  padding:5px 5px;
+  transition: 1.0s;
+}
+
+main {
+  width:85%;
+  float: right;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
